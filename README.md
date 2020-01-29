@@ -9,6 +9,7 @@ I was completely taken into this designer without any paid.
 So i have decided to make this public.
 You can see and use in any time freely.
 Thank you.
+<h4>So poor guy</h4>
 <h1>デザイン＆Bootstrapコーディング</h1>
 初めまして。
 CrowdWorks上のフリーランサーです。
