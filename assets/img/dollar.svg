@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75" viewBox="0 0 75 75">
+  <defs>
+    <filter id="Ellipse_42" x="0" y="0" width="75" height="75" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_578" data-name="Group 578" transform="translate(-42 -978)">
+    <g transform="matrix(1, 0, 0, 1, 42, 978)" filter="url(#Ellipse_42)">
+      <g id="Ellipse_42-2" data-name="Ellipse 42" transform="translate(9 6)" fill="#fff" stroke="#ff0092" stroke-width="2">
+        <circle cx="28.5" cy="28.5" r="28.5" stroke="none"/>
+        <circle cx="28.5" cy="28.5" r="27.5" fill="none"/>
+      </g>
+    </g>
+    <path id="Icon_material-attach-money" data-name="Icon material-attach-money" d="M17.7,16.35c-3.4-.885-4.5-1.8-4.5-3.225,0-1.635,1.515-2.775,4.05-2.775,2.67,0,3.66,1.275,3.75,3.15h3.315A5.979,5.979,0,0,0,19.5,7.785V4.5H15V7.74c-2.91.63-5.25,2.52-5.25,5.415,0,3.465,2.865,5.19,7.05,6.2,3.75.9,4.5,2.22,4.5,3.615,0,1.035-.735,2.685-4.05,2.685-3.09,0-4.305-1.38-4.47-3.15H9.48c.18,3.285,2.64,5.13,5.52,5.745V31.5h4.5V28.275c2.925-.555,5.25-2.25,5.25-5.325C24.75,18.69,21.1,17.235,17.7,16.35Z" transform="translate(62.52 994.5)"/>
+  </g>
+</svg>

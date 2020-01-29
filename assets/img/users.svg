@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75" viewBox="0 0 75 75">
+  <defs>
+    <filter id="Ellipse_42" x="0" y="0" width="75" height="75" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_587" data-name="Group 587" transform="translate(-42 -1311)">
+    <g transform="matrix(1, 0, 0, 1, 42, 1311)" filter="url(#Ellipse_42)">
+      <g id="Ellipse_42-2" data-name="Ellipse 42" transform="translate(9 6)" fill="#fff" stroke="#ff0092" stroke-width="2">
+        <circle cx="28.5" cy="28.5" r="28.5" stroke="none"/>
+        <circle cx="28.5" cy="28.5" r="27.5" fill="none"/>
+      </g>
+    </g>
+    <path id="Icon_awesome-users" data-name="Icon awesome-users" d="M4.552,11.354A3.035,3.035,0,1,0,1.517,8.319,3.038,3.038,0,0,0,4.552,11.354Zm21.243,0a3.035,3.035,0,1,0-3.035-3.035A3.038,3.038,0,0,0,25.8,11.354Zm1.517,1.517H24.278a3.026,3.026,0,0,0-2.139.882A6.936,6.936,0,0,1,25.7,18.941h3.13a1.516,1.516,0,0,0,1.517-1.517V15.906A3.038,3.038,0,0,0,27.313,12.872Zm-12.139,0A5.311,5.311,0,1,0,9.863,7.561,5.308,5.308,0,0,0,15.174,12.872Zm3.642,1.517h-.394a7.332,7.332,0,0,1-6.5,0h-.394a5.464,5.464,0,0,0-5.463,5.463v1.366a2.277,2.277,0,0,0,2.276,2.276H22a2.277,2.277,0,0,0,2.276-2.276V19.851A5.464,5.464,0,0,0,18.815,14.389ZM8.208,13.754a3.026,3.026,0,0,0-2.139-.882H3.035A3.038,3.038,0,0,0,0,15.906v1.517a1.516,1.516,0,0,0,1.517,1.517H4.642A6.953,6.953,0,0,1,8.208,13.754Z" transform="translate(64.297 1332.5)"/>
+  </g>
+</svg>

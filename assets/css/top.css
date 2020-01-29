@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/*    トップページ
+---------------------------------*/
+.main-wrapper {
+    margin: 60px 0 0;
+    text-align: center;
+}
+
+.main-wrapper p {
+    margin: 14px 0 0;
+    line-height: 20px;
+}
+
+#btn_add_mokuhyou {
+    display: flex;
+    position: fixed;
+    bottom: 64px;
+    right: 24px;
+    width: 46px;
+    height: 46px;
+    color: white;
+    background: #ff0092;
+    border-radius: 23px;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn_add_mokuhyou img {
+    position: absolute;
+    left: -119px;
+    top: -91px;
+}

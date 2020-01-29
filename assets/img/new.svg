@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.417" height="23.417" viewBox="0 0 23.417 23.417">
+  <g id="Group_584" data-name="Group 584" transform="translate(-335.403 -301)">
+    <g id="card" transform="translate(-17.597 332.391)">
+      <g id="badge" transform="translate(353 -31.391)">
+        <path id="Path_295" data-name="Path 295" d="M11.709,0A11.709,11.709,0,1,1,0,11.709,11.709,11.709,0,0,1,11.709,0Z" fill="#ff0092"/>
+      </g>
+    </g>
+    <text id="NEW_" data-name="NEW!" transform="translate(338 315)" fill="#fff" font-size="7" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">NEW!</tspan></text>
+  </g>
+</svg>

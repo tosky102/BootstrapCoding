@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="278.511" height="177" viewBox="0 0 278.511 177">
+  <g id="Group_589" data-name="Group 589" transform="translate(-48.5 -502.5)">
+    <g id="Group_588" data-name="Group 588">
+      <g id="card" transform="translate(-5 -68)">
+        <g id="graph" transform="translate(53.5 541.5)">
+          <g id="btm" transform="translate(17 191)">
+            <text id="_10" data-name="10" transform="translate(213.511)" fill="#fff" font-size="11" font-family="Montserrat-Regular, Montserrat" opacity="0.6"><tspan x="17.149" y="11">30</tspan></text>
+            <text id="_9" data-name="9" transform="translate(189.879)" fill="#fff" font-size="11" font-family="Montserrat-Regular, Montserrat" opacity="0.6"><tspan x="17.551" y="11">27</tspan></text>
+            <text id="_8" data-name="8" transform="translate(166.246)" fill="#fff" font-size="11" font-family="Montserrat-Regular, Montserrat" opacity="0.6"><tspan x="17.259" y="11">24</tspan></text>
+            <text id="_7" data-name="7" transform="translate(142.613)" fill="#fff" font-size="11" font-family="Montserrat-Regular, Montserrat" opacity="0.6"><tspan x="18.783" y="11">21</tspan></text>
+            <text id="_6" data-name="6" transform="translate(118.98)" fill="#fff" font-size="11" font-family="Montserrat-Regular, Montserrat" opacity="0.6"><tspan x="18.398" y="11">18</tspan></text>
+            <text id="_5" data-name="5" transform="translate(95.347)" fill="#fff" font-size="11" font-family="Montserrat-Regular, Montserrat" opacity="0.6"><tspan x="18.794" y="11">15</tspan></text>
+            <text id="_4" data-name="4" transform="translate(71.714)" fill="#fff" font-size="11" font-family="Montserrat-Regular, Montserrat" opacity="0.6"><tspan x="18.783" y="11">12</tspan></text>
+            <text id="_3" data-name="3" transform="translate(48.081)" fill="#fff" font-size="11" font-family="Montserrat-Regular, Montserrat" opacity="0.6"><tspan x="20.543" y="11">9</tspan></text>
+            <text id="_2" data-name="2" transform="translate(24.449)" fill="#fff" font-size="11" font-family="Montserrat-Regular, Montserrat" opacity="0.6"><tspan x="20.543" y="11">6</tspan></text>
+            <text id="_1" data-name="1" transform="translate(0.816)" fill="#fff" font-size="11" font-family="Montserrat-Regular, Montserrat" opacity="0.6"><tspan x="20.79" y="11">3</tspan></text>
+          </g>
+          <g id="left">
+            <text id="_5k" data-name="5k" transform="translate(0 181)" fill="#fff" font-size="11" font-family="Montserrat-Regular, Montserrat" opacity="0.6"><tspan x="0" y="0">10</tspan></text>
+            <text id="_10k" data-name="10k" transform="translate(0 134)" fill="#fff" font-size="11" font-family="Montserrat-Regular, Montserrat" opacity="0.6"><tspan x="0" y="0">40</tspan></text>
+            <text id="_15k" data-name="15k" transform="translate(0 87)" fill="#fff" font-size="11" font-family="Montserrat-Regular, Montserrat" opacity="0.6"><tspan x="0" y="0">70</tspan></text>
+            <text id="_20k" data-name="20k" transform="translate(0 40)" fill="#fff" font-size="11" font-family="Montserrat-Regular, Montserrat" opacity="0.6"><tspan x="0" y="0">100</tspan></text>
+          </g>
+        </g>
+      </g>
+      <path id="Path_305" data-name="Path 305" d="M-1566.679,8423.715h58.418l18.662,76.7,53.405-56.766,29.338,8.888,23.546-18.3v134.988l23.293-134.988h11.72" transform="translate(1663 -7914)" fill="none" stroke="#ff0092" stroke-width="4"/>
+    </g>
+    <path id="Path_306" data-name="Path 306" d="M-1571.757,8505l23.455-11.146,23.825-13.208,31.182-22.943,31.642-23.33h23.87l30.928-16.854,23.546-26.249,18.869,9.472,11.47-14.061" transform="translate(1666 -7872)" fill="none" stroke="#b7b005" stroke-width="4"/>
+  </g>
+</svg>

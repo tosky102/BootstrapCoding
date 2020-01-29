@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+        <meta charset="utf-8">
+        <title>振り返り</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="./assets/img/favicon.ico">
+        <link href="./assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./assets/lib/font-awesome/css/all.css" rel="stylesheet">
+        <link href="./assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="./assets/lib/animate/animate.min.css" rel="stylesheet">
+        <link href="./assets/lib/mdb/css/mdb.css" rel="stylesheet">
+        <link href="./assets/css/style.css" rel="stylesheet">
+        <link href="./assets/css/header.css" rel="stylesheet">
+        <link href="./assets/css/top.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div id="logo" class="font-weight-bold">
+                <h1 class="f20">MANAGE<span class="f12">目標を管理する</span></h1>
+            </div>
+            <nav id="nav-menu-container">
+              <ul class="nav-menu">
+                <li>
+                  <div class="nav-header">
+                    <div class="nav-avatar">
+                      <img src="./assets/img/avatar.png" alt="png">
+                    </div>
+                    <p class="nav-profile-name">Floyd Mayweather</p>
+                  </div>
+                </li>
+                <li class="menu-active">
+                  <div class="row menu-item">
+                    <div class="col menu-icon">
+                      <i class="fa fa-chart-bar fa-2x"></i>
+                    </div>
+                    <div class="col menu-name">
+                      <a href="1.html" class="f14">
+                      MANAGE<br>目標を管理する
+                      </a>                                
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row menu-item">
+                    <div class="col menu-icon">
+                      <i class="fa fa-user fa-2x"></i>
+                    </div>
+                    <div class="col menu-name">
+                      <a href="11.html " class="f14">MY PAGE<br>達成状況を確認する</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div>
+        <div class="main-wrapper">
+            <img src="./assets/img/main.jpg" alt="" />
+            <p>まだ何も登録されていません！<br>新規追加は下の+をタップしてください</p>
+        </div>
+    </div>
+
+    <div id="btn_add_mokuhyou">
+			<a href="5.html">
+				<i class="fa fa-plus fa-2x white-text"></i>
+			</a>
+        <img src="./assets/img/lead_add.png" alt="" >
+    </div>
+
+    <script  type="text/javascript" src="./assets/lib/jquery/jquery.min.js"></script>
+    <!-- <script src="./assets/lib/jquery/jquery-migrate.min.js"></script> -->
+    <script type="text/javascript" src="./assets/lib/mdb/js/popper.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/mdb/js/mdb.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/easing/easing.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/wow/wow.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/counterup/counterup.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/superfish/hoverIntent.js"></script>
+    <script type="text/javascript" src="./assets/lib/superfish/superfish.min.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+    <script>
+      (function(d) {
+          var config = {
+          kitId: 'ibr0zsr',
+          scriptTimeout: 3000,
+          async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+      $(document).ready(function(){
+        $('.collapse').on('show.bs.collapse', function (e) {
+            $('.collapse').collapse("hide")
+        })
+      })
+    </script>
+    <!-- LIFF -->
+    <script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
+    <!-- jquery.templates -->
+    <script src="https://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <!-- 共通 -->
+    <script src="front/js/conf.js?v=0.0.1"></script>
+    <script src="front/js/utils.js?v=0.0.1"></script>
+    <!-- 個別 -->
+    <script src="front/js/1.js?v=0.0.1"></script>    
+</body>
+
+</html>

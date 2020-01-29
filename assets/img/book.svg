@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75" viewBox="0 0 75 75">
+  <defs>
+    <filter id="Ellipse_42" x="0" y="0" width="75" height="75" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_576" data-name="Group 576" transform="translate(-156 -878)">
+    <g transform="matrix(1, 0, 0, 1, 156, 878)" filter="url(#Ellipse_42)">
+      <g id="Ellipse_42-2" data-name="Ellipse 42" transform="translate(9 6)" fill="#fff" stroke="#ff0092" stroke-width="2">
+        <circle cx="28.5" cy="28.5" r="28.5" stroke="none"/>
+        <circle cx="28.5" cy="28.5" r="27.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Icon_feather-book" data-name="Icon feather-book" transform="translate(177.7 897.5)">
+      <path id="Path_298" data-name="Path 298" d="M6,28.438A2.938,2.938,0,0,1,8.938,25.5H24.8" transform="translate(0 -4.875)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_299" data-name="Path 299" d="M8.938,3H24.8V26.5H8.938A2.937,2.937,0,0,1,6,23.563V5.938A2.938,2.938,0,0,1,8.938,3Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

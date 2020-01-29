@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>振り返り</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="./assets/img/favicon.ico">
+    <link href="./assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/lib/font-awesome/css/all.css" rel="stylesheet">
+    <link href="./assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./assets/lib/mdb/css/mdb.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/header.css" rel="stylesheet">
+    <link href="./assets/css/top.css" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div id="logo" class="font-weight-bold">
+          <h1 class="f20">MANAGE<span class="f12">目標を管理する</span></h1>
+        </div>
+      </div>
+    </header>
+    <div>
+      <div class="pt-0 mt-0">
+        <ul class="swiper_list">
+          <li class="swiper_group accordion" id="accordionEx"  role="tablist" aria-multiselectable="true">
+            <div class="button_container_without_edit" id="headingOne">
+              <div class="d-inline-block main_part part">
+                <a class="collapse-toggle" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <div class="d-flex  justify-content-between">
+                    <div>
+                      <span class="light_green_font_color action_icon">
+                      <i class="fa fa-circle "></i>
+                      </span>
+                      <span class="black-text">
+                      プログラミング学習
+                      </span>
+                    </div>
+                    <span class="black-text action_icon">
+                    <i class="fa fa-chevron-down rotate-icon"></i>
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <!-- </a> -->
+            </div>
+            <!-- Material unchecked -->
+            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordionEx">
+              <!-- Card -->
+              <form class="">
+                <div class="card">
+                  <!-- Card content -->
+                  <div class="card-body p-0">
+                    <!-- Title -->
+                    <h4 class="card-title text-center light_pink_color p-3 font-weight-bold f16">今日のタスク</h4>
+                    <!-- Text -->
+                    <div class="card-text black-text text-left">
+                      <div class="form-group mb-0">
+                        <div class="date_field text-left py-3 border-light border-bottom "  id="task1_wrapper">
+                          <div class="row mx-0 px-0">
+                            <div class="col-8 mx-auto text-left">
+                              <div class="custom-control custom-radio" id="task1">
+                                <input type="radio" class="custom-control-input" id="check1" name="make_data_date" >
+                                <label class="custom-control-label" for="check1"><a class="star_open" data-toggle="task1"><span class="pl-2 f15 font-weight-bold">毎日参考書を1ページ読む</span></a></label>
+                              </div>
+                              <div class="row d-none" id="task1_condition">
+                                <div class="col-2 p-0">
+                                  <span>
+                                    <img src="./assets/img/finish.svg" />
+                                  </span>
+                                </div>
+                                <div class="col-10">
+                                  <a class="star_close" data-toggle="task1">
+                                    <div class="row">
+                                        <div class="col-2 offset-1">
+                                          <span class="yellow-text f20">
+                                          <i class="fas fa-star"></i>
+                                          </span>
+                                        </div>
+                                        <div class="col-2">
+                                          <span class="yellow-text f20">
+                                          <i class="fa fa-star"></i>
+                                          </span>
+                                        </div>
+                                        <div class="col-2">
+                                          <span class="yellow-text f20">
+                                          <i class="fa fa-star"></i>
+                                          </span>
+                                        </div>
+                                        <div class="col-2">
+                                          <span class="black-text f20">
+                                          <i class="far fa-star"></i>
+                                          </span>
+                                        </div>
+                                        <div class="col-2">
+                                          <span class="black-text f20">
+                                          <i class="far fa-star"></i>
+                                          </span>
+                                        </div>
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="select_field text-left py-3">
+                          <div class="row mx-0 px-0">
+                            <div class="col-8 mx-auto text-left">
+                              <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="check2" name="make_data_date" >
+                                <label class="custom-control-label" for="check2"><span class="pl-2 f15 font-weight-bold">毎日コードを10行書く</span></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grey lighten-4 py-3">
+                        <div class="row mx-0 px-0">
+                          <div class="col-6">
+                            <div class="row">
+                              <button class="btn light_pink_color py-2 px-3 rounded-pill m-auto f12">
+                              達成するためのタスク一覧
+                              </button>
+                              <div class="col-11 offset-1 black-text mt-3">
+                                <div class="border-left border-dark pl-2 text-left">
+                                  <p class="f12 font-weight-bold">
+                                    ①毎日参考書を1ページ読む
+                                  </p>
+                                  <p class="f12 font-weight-bold">
+                                    ②毎日コードを10行書く
+                                  </p>
+                                  <p class="f12 font-weight-bold">
+                                    ③毎週月曜にコードレビューする
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-6">
+                            <div class="row">
+                              <button class="btn light_pink_color px-3 py-2 rounded-pill m-auto f12">
+                              達成した後になりたい姿
+                              </button>
+                              <div class="col-11 offset-1 black-text mt-3">
+                                <div class="border-left border-dark pl-2 text-left">
+                                  <p class="f12 font-weight-bold">
+                                    技術を理解してキャリアアップする
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Button -->
+                    <div class="text-center my-3">
+                      <a href="1.html" class="btn btn-lg light_pink_color custom_button">今週のタスクを確認する <i class="fa fa-chevron-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card -->
+              </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script  type="text/javascript" src="./assets/lib/jquery/jquery.min.js"></script>
+    <!-- <script src="./assets/lib/jquery/jquery-migrate.min.js"></script> -->
+    <script type="text/javascript" src="./assets/lib/mdb/js/popper.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/mdb/js/mdb.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/easing/easing.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/wow/wow.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/counterup/counterup.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/superfish/hoverIntent.js"></script>
+    <script type="text/javascript" src="./assets/lib/superfish/superfish.min.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+    <script>
+      (function(d) {
+          var config = {
+          kitId: 'ibr0zsr',
+          scriptTimeout: 3000,
+          async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+      $(document).ready(function(){
+        $('.collapse').on('show.bs.collapse', function (e) {
+            $('.collapse').collapse("hide")
+        })
+        $('.star_open').click(function() {
+          var id = $(this).attr('data-toggle');
+          $('#' + id).addClass('d-none');
+          $('#' + id + '_condition').removeClass('d-none');
+        })
+        $('.star_close').click(function() {
+          var id = $(this).attr('data-toggle');
+          // $('#' + id).removeClass('d-none');
+          $('#' + id + '_wrapper').addClass('d-none');
+        })
+      })
+    </script>
+    <!-- LIFF -->
+    <script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
+    <!-- jquery.templates -->
+    <script src="https://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <!-- 共通 -->
+    <script src="front/js/conf.js?v=0.0.1"></script>
+    <script src="front/js/utils.js?v=0.0.1"></script>
+    
+  </body>
+</html>

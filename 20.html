@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>振り返り</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="./assets/img/favicon.ico">
+    <link href="./assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/lib/font-awesome/css/all.css" rel="stylesheet">
+    <link href="./assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./assets/lib/mdb/css/mdb.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/header.css" rel="stylesheet">
+    <link href="./assets/css/top.css" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <div class="row px-0 mx-0 align-items-center">
+        <div class="col-2">
+          <a href="15.html"><i class="fas fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="col-3 offset-7">
+          <a href="22.html" class="d-block text-center btn px-2 mx-0 light_pink_color w-100 rounded-pill py-2">投稿する</a>
+        </div>
+      </div>
+      <div class="row px-0 mx-0 align-items-center font-weight-bold my-2">
+        <div class="col-12 text-left ml-2">
+          <p class="f14 grey_font_color">
+            <i class="fas fa-square light_pink_font_color pr-2"></i>
+            この日記に書く、対象の目標を選択してね！
+          </p>
+        </div>
+        <div class="col-12">
+          <!--Dropdown primary-->
+          <div class="dropdown w-100">
+            <!--Trigger-->
+            <button class="btn rounded21 light_pink_color px-0 mx-0 w-100 py-4 dropdown-toggle f16 position-relative" type="button" id="dropdownMenu1" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">目標選択してください。<span class="position-absolute dropdown_icon"><i class="fas fa-angle-down f20 pl-3"></i></span></button>
+            <!--Menu-->
+            <div class="dropdown-menu dropdown-primary">
+              <a class="dropdown-item" href="#">ダミーデータ１</a>
+              <a class="dropdown-item" href="#">ダミーデータ2</a>
+              <a class="dropdown-item" href="#">ダミーデータ3</a>
+              <a class="dropdown-item" href="#">ダミーデータ4</a>
+            </div>
+          </div>
+          <!--/Dropdown primary-->
+        </div>
+        <div class="col-12 my-4">
+          <div class="w-100 border-top border-bottom">
+            <p class="f16 heavy_grey_font_color pl-3 my-3"><i class="fas fa-circle red-text light_pink_font_color f20 pr-4 border-right"></i>日記の是名を入力してください。</p>
+          </div>
+        </div>
+        <div class="col-11 mx-auto offset-1 my-3">
+          <p class="py-2 grey_font_color"><i class="fas fa-square pr-2 light_pink_font_color"></i>現在の達成状況は？</p>
+          <div class="py-5 px-3 light_grey rounded21">
+            <div class="row">
+              <div class="col-6">
+                <button class="btn w-100 rounded21 light_pink_color f14 py-3 px-3 mx-0">計画通り</button>
+              </div>
+              <div class="col-6">
+                <button class="btn w-100 rounded21 light_pink_color f14 py-3 px-3 mx-0 opacity-60 ">見直しが必要</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 mx-auto my-3">
+          <p class="py-2 grey_font_color"><i class="fas fa-square pr-2 light_pink_font_color"></i>現在の心理状況は？どんな不安を持ってる？</p>
+          <div class="py-2 px-3  rounded21">
+            <div class="row">
+              <div class="col-12">
+                <div class="dropdown w-100 text-center">
+                  <div>
+                    <a class="light_grey grey_font_color w-100 py-5 d-block rounded21 px-0 mx-0 w-100 dropdown-toggle f16 position-relative collapse-toggle " data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">
+                    選択してください。<span class="position-absolute dropdown_icon"><i class="fas fa-angle-down f20 rotate-icon"></i></span>
+                    </a>
+                  </div>
+                  <div class="text-center collapse grey lighten-4 story_template_custom_dropdown" id="collapse">
+                    <p class="py-4 border-bottom f13">😊全てが順調、最高の気分</p>
+                    <p class="py-4 border-bottom f13">😭計画的に進めず悲し</p>
+                    <p class="py-4 f13">😅一応タスクはこなしているがキツい</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 mx-auto my-3">
+          <p class="py-2 grey_font_color"><i class="fas fa-square pr-2 light_pink_font_color"></i>目標の再確認をしよう！気持ちに変化はない？</p>
+          <div class="py-5 px-3 light_grey rounded21">
+            <div class="row">
+              <div class="col-6">
+                <button class="btn w-100 rounded21 light_pink_color f14 py-3 px-3 mx-0">全くない</button>
+              </div>
+              <div class="col-6">
+                <button class="btn w-100 rounded21 light_pink_color f14 py-3 px-3 mx-0 opacity-60 ">不安がある</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 mx-auto my-3">
+          <p class="py-2 grey_font_color"><i class="fas fa-square pr-2 light_pink_font_color"></i>抱えている問題や課題を整理しよう！</p>
+          <div class="py-1 px-3 light_grey rounded21 story_template_textarea">
+            <textarea class="light_grey d-block f13 w-100 border-0 h-100" placeholder="本文を入力してください" ></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script  type="text/javascript" src="./assets/lib/jquery/jquery.min.js"></script>
+    <script src="./assets/lib/jquery/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/mdb/js/popper.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/mdb/js/mdb.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/easing/easing.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/wow/wow.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/counterup/counterup.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/superfish/hoverIntent.js"></script>
+    <script type="text/javascript" src="./assets/lib/superfish/superfish.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+    <script>
+      (function(d) {
+          var config = {
+          kitId: 'ibr0zsr',
+          scriptTimeout: 3000,
+          async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+      $(document).ready(function(){
+        $('.collapse').on('show.bs.collapse', function (e) {
+            $('.collapse').collapse("hide")
+        })
+        $('#myTabMD a').click(function (e) {
+          e.preventDefault();
+          $(this).tab('show');
+        });
+      })
+    </script>
+    <!-- LIFF -->
+    <script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
+    <!-- jquery.templates -->
+    <script src="https://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <!-- 共通 -->
+    <script src="front/js/conf.js?v=0.0.1"></script>
+    <script src="front/js/utils.js?v=0.0.1"></script>
+    <!-- 個別 -->
+    <script src="front/js/20.js?v=0.0.1"></script>    
+  </body>
+</html>
